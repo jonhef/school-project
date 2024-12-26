@@ -3,9 +3,23 @@
  Computer vision project for controling media(next and previous track, play and pause, volume up and down and mute)
 
 ## How to use
-- Start the program using python3
-- Accept access to the camera
-- Use your fingers to control media
+1. Install dependecies
+```
+# For Linux/MacOS
+pip3 install opencv-python
+pip3 install numpy
+pip3 install pynput
+pip3 install mediapipe
+
+# For Windows
+pip install opencv-python
+pip install numpy
+pip install pynput
+pip install mediapipe
+```
+2. Start the program using python3
+3. Accept access to the camera
+4. Use your fingers to control media
 
 | previous | next | play | pause | volume down | volume up | mute |
 | -------- | ---- | ---- | ----- | ----------- | --------- | ---- |
