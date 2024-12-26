@@ -3,23 +3,32 @@
  Computer vision project for controling media(next and previous track, play and pause, volume up and down and mute)
 
 ## How to use
-1. Install dependecies
+1. Go to the terminal and clone the project `git clone https://github.com/jonhef/school-project.git`
+2. Install dependecies
+
+For Linux/MacOS
 ```
-# For Linux/MacOS
 pip3 install opencv-python
 pip3 install numpy
 pip3 install pynput
 pip3 install mediapipe
-
-# For Windows
+```
+For Windows
+```
 pip install opencv-python
 pip install numpy
 pip install pynput
 pip install mediapipe
 ```
-2. Start the program using python3
-3. Accept access to the camera
-4. Use your fingers to control media
+3. Go to the project's folder in terminal `cd school-project`
+4. Start the program using python3
+
+For Linux/MacOS `python3 main.py`
+
+For Windows `python main.py` 
+
+5. Accept access to the camera
+6. Use your fingers to control media
 
 | previous | next | play | pause | volume down | volume up | mute |
 | -------- | ---- | ---- | ----- | ----------- | --------- | ---- |
